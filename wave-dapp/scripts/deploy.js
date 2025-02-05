@@ -22,7 +22,6 @@ async function main() {
     process.exit(1);
   }
 }
-
 main()
   .then(() => process.exit(0))
   .catch((error) => {
